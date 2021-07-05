@@ -1,7 +1,7 @@
 body{margin: 0;
 }
 .orange-color{
-    color : orange
+    color : salmon
 }
 section{
     display: flex;
@@ -16,10 +16,23 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-color: rgb(128, 41, 6);
+    background-color: orangered;
     padding: 10px 40px;
-    border-radius: 50px;}
-    .middle-banner{
+    border-radius: 40px;
+}
+.middle-banner{
         background-image: url(images/shapes/7.png);
         background-repeat: no-repeat;
+    }
+    .last-banner{
+        width: 100%;
+align-items: center;
+    }
+    .recipies{
+    width: 100%;
+    padding: 10;
+
+    }
+    .finished{
+        text-align: center;
     }
